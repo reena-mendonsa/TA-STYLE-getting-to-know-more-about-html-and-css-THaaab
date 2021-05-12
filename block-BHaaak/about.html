@@ -1,47 +1,18 @@
-<!-- 
-### Create a website having 3 separate pages.
-
-#### TODO 💻:
-
-1. Create a website having 3 separate pages.
-2. Each page must be connected.
-3. Each page must have the same structure. But the content can be different. The sample structure of a page has been shown below.
-4. There must be different images on each page.
-5. For the link use both relative path and absolute path depending upon the type of link.
-6. In the footer, we have some social media links also, connect each media link to your profile page.
-7. For mail me link in the footer, connect it to a mail. The mail must have a subject and body part also.
-8. Back to top button must take to the top of the page once clicked.
-
----
-
-![alt text](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/html-css/ex-1.png)
-
----
-
-- use appropriate semantic tags and keep the nesting and indentation clean.
-- All the absolute must open in a new window. -->
-
 <!DOCTYPE  html>
 <html lang="end">
     <head>
         <meta charset="UTF-8">
-        <title> Creating a website having 3 separate pages.</title>
+        <title> About Page.</title>
         <link rel="stylesheet" href ="assets/stylesheet/style.css">
     </head>
-    <body id="top">
+    <body>
       <header>
-          <h1> List Of Articles </h1>
-          <nav>
-              <a href="about.html" >About</a>
-              <a href="service.html" target="_blank">Service</a>
-              <a href="contact.html">Contact</a>
-              <a href="https://www.google.com/" target="_blank">Google</a>
-          </nav>
-          <h3>Lorem Ipsum dolor sit</h3>
+          <h1> About our Company </h1>
+          
           <main>
             <section>
                 <article>
-                    <img src="assets/media/img3.jpg" alt="First image">
+                    <img src="assets/media/img4.jpg" alt="First image">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi a dolor ipsum. Suspendisse massa urna, blandit nec iaculis nec, consequat sit amet nibh. Curabitur faucibus, tellus et blandit aliquam, ex orci vulputate risus, sed efficitur risus massa in eros. Donec luctus nulla sed tellus auctor dignissim. Aliquam ut lacinia nibh. Morbi et ipsum at justo maximus fermentum at a nibh. Etiam et aliquet nunc. 
                         Praesent ligula elit, fringilla sed ultrices sodales, euismod sit amet est. Pellentesque in ornare ex, a finibus est. 
@@ -94,42 +65,37 @@
                 
   
             </section>
-            
+       
           </main>
+        </header>       
+          
           <footer>
-            <h4>Footer</h4>
-            <nav>
-                <a href="https://www.facebook.com/"target="_blank">Facebook</a>
-               <a href="https://instagram.com/"target="_blank">Instagram</a>
-               <a href="https://twitter.com"target="_blank">Twitter</a>
-            </nav>
-            <nav>
-                <footer>
-                    <div>
-                      
-                     <button class="button">
-                        <a href="mailto:xyz@example.com?Subject=Reaching%20Out">
-                            <span>Mail me</span>
-                          </a>
+             <div>
+                   <button class="button">
+                     <a href="mailto:xyz@example.com">
+                     <span>Mail me</span>
+                     </a>
+                   </button>
+                        
+                    <button class="button">
+                     <a href="#">
+                     <span>Back to Top</span>
+                     </a>
+                   </button>
+                        
+                   <button class="button">
+                    <a href="index.html">
+                    <span>Back to Main Page</span>
+                    </a>
+                  </button>
+                  
                      
-                     </button>
-                         
-                     <button class ="button">
-                        <a href="#top" >
-                            <span>Back to Top</span>
-                          </a>
-                       
-                     </button>   
-                         
-                           
-
-                     
-                    </div>
-                </footer>
-            </nav>
+                </div>
+                
+            
         </footer>
           
-      </header>
+      
     </body>
 
 </html>
